@@ -1,0 +1,4 @@
+src/init.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/src/init.c \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/init.h
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/init.h:

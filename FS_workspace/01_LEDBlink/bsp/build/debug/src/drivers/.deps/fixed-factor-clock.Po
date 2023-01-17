@@ -1,0 +1,4 @@
+src/drivers/fixed-factor-clock.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/01_LEDBlink/freedom-metal/src/drivers/fixed-factor-clock.c \
+ metal/machine/platform.h
+metal/machine/platform.h:

@@ -1,0 +1,2 @@
+src/vector.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/01_LEDBlink/freedom-metal/src/vector.S
