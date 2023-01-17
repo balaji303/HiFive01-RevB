@@ -1,0 +1,86 @@
+src/drivers/sifive_fe310-g000_hfrosc.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/src/drivers/sifive_fe310-g000_hfrosc.c \
+ metal/machine/platform.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/clock.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\lib\gcc\riscv64-unknown-elf\10.2.0\include\stddef.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/compiler.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/io.h \
+ metal/machine.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/fixed-clock.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/memory.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\lib\gcc\riscv64-unknown-elf\10.2.0\include\stdint.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\stdint.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\_default_types.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\features.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_newlib_version.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_intsup.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_stdint.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/riscv_clint0.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/riscv_cpu.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/cpu.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/interrupt.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/riscv_plic0.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/pmp.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_gpio0.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/gpio.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_gpio-leds.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/led.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_i2c0.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/i2c.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_pwm0.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/pwm.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_rtc0.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/rtc.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_spi0.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/spi.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_uart0.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/uart.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_wdog0.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/watchdog.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h
+metal/machine/platform.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/clock.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\lib\gcc\riscv64-unknown-elf\10.2.0\include\stddef.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/compiler.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/io.h:
+metal/machine.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/fixed-clock.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/memory.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\lib\gcc\riscv64-unknown-elf\10.2.0\include\stdint.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\stdint.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\_default_types.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\features.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_newlib_version.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_intsup.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_stdint.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/riscv_clint0.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/riscv_cpu.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/cpu.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/interrupt.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/riscv_plic0.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/pmp.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_gpio0.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/gpio.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_gpio-leds.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/led.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_i2c0.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/i2c.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_pwm0.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/pwm.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_rtc0.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/rtc.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_spi0.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/spi.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_uart0.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/uart.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_wdog0.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/watchdog.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h:
+E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h:

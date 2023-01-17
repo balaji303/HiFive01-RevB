@@ -45,6 +45,8 @@
 # Kernel Module Compile Results
 *.mod*
 *.cmd
+*.py
+*.dtls
 .tmp_versions/
 modules.order
 Module.symvers

@@ -1,0 +1,2 @@
+gloss/crt0.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/sifive_hifive1_revb_sifive_welcome/freedom-metal/gloss/crt0.S
