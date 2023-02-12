@@ -1,7 +1,9 @@
-## HiFive01 Rev B
+# HiFive01 Rev B
 
-![Board Overview](https://github.com/balaji303/HiFive01-RevB/blob/main/Docs/HiFiveRevB_Overview.png)
-![Pin Out](https://github.com/balaji303/HiFive01-RevB/blob/main/Docs/HiFiveRevB_Pinout.png)
+## Quick Reference Images
+
+<img src="https://raw.githubusercontent.com/balaji303/HiFive01-RevB/main/Docs/HiFiveRevB_Overview.png" alt="Board Overview" class="inline"/>
+<img src="https://raw.githubusercontent.com/balaji303/HiFive01-RevB/main/Docs/HiFiveRevB_Pinout.png" alt="Pin Out" class="inline"/>
 
 ## Useful Links
 
@@ -17,4 +19,6 @@
 - [Manual](https://github.com/balaji303/HiFive01-RevB/blob/main/Docs/manual_fe310-g002-v1p4.pdf)
 - [Schematics](https://github.com/balaji303/HiFive01-RevB/blob/main/Docs/schematics_hifive1-b01.pdf)
 
+## License
 
+Checkout the license [here](https://github.com/balaji303/HiFive01-RevB/blob/main/LICENSE)
