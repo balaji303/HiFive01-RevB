@@ -1,0 +1,4 @@
+src/init.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/002_LED_Blink_All/freedom-metal/src/init.c \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/002_LED_Blink_All/freedom-metal/metal/init.h
+E\:/GitHub/HiFive01-RevB/FS_workspace/002_LED_Blink_All/freedom-metal/metal/init.h:

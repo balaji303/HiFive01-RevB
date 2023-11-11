@@ -1,0 +1,4 @@
+gloss/sys_exit.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/002_LED_Blink_All/freedom-metal/gloss/sys_exit.c \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/002_LED_Blink_All/freedom-metal/metal/shutdown.h
+E\:/GitHub/HiFive01-RevB/FS_workspace/002_LED_Blink_All/freedom-metal/metal/shutdown.h:
