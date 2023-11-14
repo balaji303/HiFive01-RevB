@@ -1,0 +1,4 @@
+src/drivers/sifive_global-external-interrupts0.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/002_LED_Blink_All/freedom-metal/src/drivers/sifive_global-external-interrupts0.c \
+ metal/machine/platform.h
+metal/machine/platform.h:
