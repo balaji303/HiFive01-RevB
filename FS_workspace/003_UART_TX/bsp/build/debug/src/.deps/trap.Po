@@ -1,0 +1,2 @@
+src/trap.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/003_UART_TX/freedom-metal/src/trap.S

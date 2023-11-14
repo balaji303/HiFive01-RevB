@@ -1,0 +1,4 @@
+src/init.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/003_UART_TX/freedom-metal/src/init.c \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/003_UART_TX/freedom-metal/metal/init.h
+E\:/GitHub/HiFive01-RevB/FS_workspace/003_UART_TX/freedom-metal/metal/init.h:

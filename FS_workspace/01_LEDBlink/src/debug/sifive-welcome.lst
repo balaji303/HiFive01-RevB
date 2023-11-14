@@ -36,11 +36,11 @@ Idx Name              Size      VMA       LMA       File off  Algn  Flags
  10 .debug_abbrev     00002520  00000000  00000000  00026627  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
  11 .debug_aranges    000009f8  00000000  00000000  00028b48  2**3  CONTENTS, READONLY, DEBUGGING, OCTETS
  12 .debug_ranges     00000888  00000000  00000000  00029540  2**3  CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_line       000099a7  00000000  00000000  00029dc8  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_str        0000447a  00000000  00000000  0003376f  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .comment          00000030  00000000  00000000  00037be9  2**0  CONTENTS, READONLY
- 16 .riscv.attributes 0000002f  00000000  00000000  00037c19  2**0  CONTENTS, READONLY
- 17 .debug_frame      000029b8  00000000  00000000  00037c48  2**2  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 13 .debug_line       000099aa  00000000  00000000  00029dc8  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 14 .debug_str        0000447a  00000000  00000000  00033772  2**0  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 15 .comment          00000030  00000000  00000000  00037bec  2**0  CONTENTS, READONLY
+ 16 .riscv.attributes 0000002f  00000000  00000000  00037c1c  2**0  CONTENTS, READONLY
+ 17 .debug_frame      000029b8  00000000  00000000  00037c4c  2**2  CONTENTS, READONLY, DEBUGGING, OCTETS
 SYMBOL TABLE:
 20010000 l    d  .init	00000000 .init
 200102e0 l    d  .init_array	00000000 .init_array
@@ -1348,20 +1348,23 @@ Disassembly of section .text:
 
 20010f00 <main>:
 main():
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:7
-#include <stdio.h>
-#include <metal/led.h>
-
-void delay(void);
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:22
+ * @brief Main Funcion
+ * 
+ * @return int 
+ */
 int main(void)
 {
 20010f00:	1101                	addi	sp,sp,-32
 20010f02:	ce06                	sw	ra,28(sp)
 20010f04:	cc22                	sw	s0,24(sp)
 20010f06:	1000                	addi	s0,sp,32
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:10
-	// Declaration
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:29
 	struct metal_led *ledRed;
+	/**
+	 * @brief Get the handle for the RedLed
+	 * 
+	 */
 	ledRed = metal_led_get_rgb("LD0", "red");
 20010f08:	200107b7          	lui	a5,0x20010
 20010f0c:	34078593          	addi	a1,a5,832 # 20010340 <use_hfxosc+0x2c>
@@ -1369,69 +1372,88 @@ E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:10
 20010f14:	34478513          	addi	a0,a5,836 # 20010344 <use_hfxosc+0x30>
 20010f18:	28c9                	jal	20010fea <metal_led_get_rgb>
 20010f1a:	fea42623          	sw	a0,-20(s0)
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:11
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:34
+	/**
+	 * @brief Construct a new metal led enable object
+	 * 
+	 */
 	metal_led_enable(ledRed);
 20010f1e:	fec42503          	lw	a0,-20(s0)
 20010f22:	28b1                	jal	20010f7e <metal_led_enable>
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:14 (discriminator 1)
-	while(1)
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:41 (discriminator 1)
 	{
+		/**
+		 * @brief Construct a new metal led off object
+		 * 
+		 */
 		metal_led_off(ledRed);
 20010f24:	fec42503          	lw	a0,-20(s0)
 20010f28:	2879                	jal	20010fc6 <metal_led_off>
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:15 (discriminator 1)
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:46 (discriminator 1)
+		/**
+		 * @brief Construct a new delay object
+		 * 
+		 */
 		delay();
 20010f2a:	2031                	jal	20010f36 <delay>
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:16 (discriminator 1)
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:51 (discriminator 1)
+		/**
+		 * @brief Construct a new metal led on object
+		 * 
+		 */
 		metal_led_on(ledRed);
 20010f2c:	fec42503          	lw	a0,-20(s0)
 20010f30:	288d                	jal	20010fa2 <metal_led_on>
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:17 (discriminator 1)
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:56 (discriminator 1)
+		/**
+		 * @brief Construct a new delay object
+		 * 
+		 */
 		delay();
 20010f32:	2011                	jal	20010f36 <delay>
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:14 (discriminator 1)
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:41 (discriminator 1)
 		metal_led_off(ledRed);
 20010f34:	bfc5                	j	20010f24 <main+0x24>
 
 20010f36 <delay>:
 delay():
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:23
-	}
-	return 0;
-}
-
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:66
+/**
+ * @brief A simple delay function
+ * 
+ */
 void delay(void)
 {
 20010f36:	1101                	addi	sp,sp,-32
 20010f38:	ce22                	sw	s0,28(sp)
 20010f3a:	1000                	addi	s0,sp,32
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:24
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:67
 	for(int i=0;i<1000;i++)
 20010f3c:	fe042623          	sw	zero,-20(s0)
 20010f40:	a025                	j	20010f68 <delay+0x32>
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:26
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:69
 	{
 		for(int j=0;j<300;j++);
 20010f42:	fe042423          	sw	zero,-24(s0)
 20010f46:	a031                	j	20010f52 <delay+0x1c>
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:26 (discriminator 3)
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:69 (discriminator 3)
 20010f48:	fe842783          	lw	a5,-24(s0)
 20010f4c:	0785                	addi	a5,a5,1
 20010f4e:	fef42423          	sw	a5,-24(s0)
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:26 (discriminator 1)
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:69 (discriminator 1)
 20010f52:	fe842703          	lw	a4,-24(s0)
 20010f56:	12b00793          	li	a5,299
 20010f5a:	fee7d7e3          	bge	a5,a4,20010f48 <delay+0x12>
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:24 (discriminator 2)
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:67 (discriminator 2)
 	for(int i=0;i<1000;i++)
 20010f5e:	fec42783          	lw	a5,-20(s0)
 20010f62:	0785                	addi	a5,a5,1
 20010f64:	fef42623          	sw	a5,-20(s0)
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:24 (discriminator 1)
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:67 (discriminator 1)
 20010f68:	fec42703          	lw	a4,-20(s0)
 20010f6c:	3e700793          	li	a5,999
 20010f70:	fce7d9e3          	bge	a5,a4,20010f42 <delay+0xc>
-E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:28
+E:\GitHub\HiFive01-RevB\FS_workspace\01_LEDBlink\src/sifive-welcome.c:71
 	}
 }
 20010f74:	0001                	nop

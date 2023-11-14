@@ -1,0 +1,34 @@
+gloss/sys_chdir.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/003_UART_TX/freedom-metal/gloss/sys_chdir.c \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\errno.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\errno.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\reent.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_ansi.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\newlib-nano\newlib.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_newlib_version.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\config.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\ieeefp.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\features.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\lib\gcc\riscv64-unknown-elf\10.2.0\include\stddef.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_types.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\_types.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\_default_types.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\lock.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\assert.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_ansi.h
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\errno.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\errno.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\reent.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_ansi.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\newlib-nano\newlib.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_newlib_version.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\config.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\ieeefp.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\features.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\lib\gcc\riscv64-unknown-elf\10.2.0\include\stddef.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_types.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\_types.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\_default_types.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\lock.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\assert.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_ansi.h:

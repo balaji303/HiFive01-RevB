@@ -1,0 +1,6 @@
+src/clock.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/003_UART_TX/freedom-metal/src/clock.c \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/003_UART_TX/freedom-metal/metal/clock.h \
+ e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\lib\gcc\riscv64-unknown-elf\10.2.0\include\stddef.h
+E\:/GitHub/HiFive01-RevB/FS_workspace/003_UART_TX/freedom-metal/metal/clock.h:
+e\:\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\lib\gcc\riscv64-unknown-elf\10.2.0\include\stddef.h:

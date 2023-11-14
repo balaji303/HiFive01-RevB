@@ -1,0 +1,4 @@
+src/drivers/sifive_local-external-interrupts0.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/003_UART_TX/freedom-metal/src/drivers/sifive_local-external-interrupts0.c \
+ metal/machine/platform.h
+metal/machine/platform.h:
