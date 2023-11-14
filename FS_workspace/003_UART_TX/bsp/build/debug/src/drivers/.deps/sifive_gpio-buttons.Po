@@ -1,0 +1,4 @@
+src/drivers/sifive_gpio-buttons.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/003_UART_TX/freedom-metal/src/drivers/sifive_gpio-buttons.c \
+ metal/machine/platform.h
+metal/machine/platform.h:
