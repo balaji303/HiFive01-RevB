@@ -1,0 +1,4 @@
+src/init.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/004_UART_TXRX/freedom-metal/src/init.c \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/004_UART_TXRX/freedom-metal/metal/init.h
+E\:/GitHub/HiFive01-RevB/FS_workspace/004_UART_TXRX/freedom-metal/metal/init.h:

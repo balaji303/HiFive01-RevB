@@ -1,0 +1,4 @@
+src/drivers/sifive_l2pf0.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/004_UART_TXRX/freedom-metal/src/drivers/sifive_l2pf0.c \
+ metal/machine/platform.h
+metal/machine/platform.h:
