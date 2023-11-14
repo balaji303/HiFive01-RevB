@@ -1,0 +1,2 @@
+src/scrub.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/004_UART_TXRX/freedom-metal/src/scrub.S

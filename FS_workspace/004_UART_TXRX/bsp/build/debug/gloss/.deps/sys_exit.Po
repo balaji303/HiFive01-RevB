@@ -1,0 +1,4 @@
+gloss/sys_exit.o: \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/004_UART_TXRX/freedom-metal/gloss/sys_exit.c \
+ E\:/GitHub/HiFive01-RevB/FS_workspace/004_UART_TXRX/freedom-metal/metal/shutdown.h
+E\:/GitHub/HiFive01-RevB/FS_workspace/004_UART_TXRX/freedom-metal/metal/shutdown.h:
